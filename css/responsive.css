@@ -1,0 +1,260 @@
+@media screen and (max-width: 620px) {
+    body {
+        padding: 0;
+        margin: 0;
+        font-family: 'Poppins';
+        text-align: center;
+    }
+    .f62{
+        font-size: 62px;
+        font-weight: 500;
+    }
+    .f42{
+        font-size: 35px;
+    }
+    .f35{
+        font-size: 35px;
+    }
+    .f22{
+        font-size: 22px;
+    }
+    .f20{
+        font-size: 20px;
+    }
+    .f18{
+        font-size: 18px;
+    }
+    .f16{
+        font-size: 16px;
+    }
+    .f14{
+        font-size: 14px;
+    }
+    .f12{
+        font-size: 12px;
+    }
+    #container{
+        width: 100%;
+        margin: auto;
+    }
+    /* header  */
+    header{
+        width: 100%;
+        display: none;
+        padding: 1rem 0;
+        position: fixed;
+        background-color: white;
+        top: 3rem;
+    }
+    .navMobile{
+        position: fixed;
+        top: 0;
+        background-color: white;
+        display: flex;
+        z-index: 100;
+        justify-content: space-between;
+        padding: 1rem 1rem 0 1rem;
+
+    }
+    .menu ul li:hover{
+        background-color: rgb(202, 236, 233);
+        width: auto;
+        text-align: center;
+        border-radius: 12px;
+    }
+    /* #navMobile img{
+        width: 15%;
+    } */
+    .imglogo{
+        width: 20%;
+    }
+    #btnmenu{
+        width: 10%;
+    }
+    .logo{
+        width: 100%;
+        margin: auto;
+    }
+    .menu{
+        width: 100%;
+        margin: auto;
+    }
+    .menu ul{
+        width: 100%;
+        display: block;
+        justify-content: space-between;
+        padding-inline-start: 0;
+        
+    }
+    .menu ul li{
+        list-style: none;
+    }
+    .login{
+        width: 100%;
+        display: block;
+        text-align: center;
+    }
+    .login *{
+        width: 50%;
+        margin: 1rem auto;
+
+    }
+    .login button{
+        background-color: white;
+        padding: 1rem 2rem;
+        border: 1px solid #1EBFC1;
+        color: #1EBFC1;
+        border-radius: 12px;
+    }
+    
+    /* section */
+    section{
+        width: 100%;
+        margin: 3rem 0;
+    }
+    .one{
+        width: 100%;
+        display: block;
+        margin-top: 5rem;
+    }
+    .onel{
+        width: 100%;
+        margin: 3rem auto;
+    }
+    .getStart button{
+        padding: 10px 2rem;
+        margin-right: 2rem;
+        border-radius: 12px;
+        border-color: #1EBFC1;
+        background-color: #1EBFC1;
+        color: white;
+    }
+    
+    .oner{
+        width: 100%;
+    }
+    .oner img{
+        width: 100%;
+    }
+    .three{
+        display: block;
+        width: 100%;
+        justify-content: space-between;
+    }
+    .three-item{
+        width: 100%;
+    
+    }
+    .four{
+        width: 100%;
+    }
+    
+    .fourb{
+        width: 100%;
+        display: block;
+        justify-content: space-between;
+    }
+    .five{
+        margin: 3rem 0;
+        width: 100%;
+        display: block;
+        justify-content: space-between;
+    }
+    .five-item {
+        width: 100%;
+        line-height: 0;
+        position: relative;
+        margin: 15rem 0;
+    }
+    
+    .box-img{
+        width: 100%;
+        z-index: 0;
+    }
+    .box-img img{
+        width: 100%;
+    }
+    
+    .description{
+        background-color: white;
+        border-radius: 12px;
+        width: 85%;
+        align-items: center;
+        margin: -3rem 5%;
+        position: absolute;
+        padding: 1rem 0 0 1rem;
+    }
+    .description *{
+        
+    }
+    .description-item{
+        width: 100%;
+        display: block;
+    }
+    .description-item img{
+        width: 5%;
+        margin: auto;
+    }
+    .six{
+        margin-top: 8rem;
+            width: 100%;
+            display: block;
+            justify-content: space-between;
+    }
+    .seven{
+        margin-top: 5rem;
+        width: 100%;
+        display: block;
+    }
+    .sevenl{
+        width: 100%;
+        margin: auto;
+        line-height: 2rem;
+    }
+    .sevenLIcon img{
+        margin-right    : 3rem;
+    }
+    
+    .sevenr{
+        width: 100%;
+    }
+    .sevenr img{
+        width: 100%;
+    }
+    .eight{
+        width: 100%;
+        padding: 2rem 0;
+        display: block;
+        background-color: #DEF6F5;
+    }
+    
+    .eightl{
+        width: 100%;
+        padding-left: 0;
+    }
+    
+    .eightr{
+        width: 30%;
+        margin: auto;
+    }
+    .eightr button{
+        margin: auto;
+        padding: 1rem 2rem;
+         background-color: #1EBFC1;
+         border-color: #1EBFC1;
+         color: white;
+         border-radius: 12px;
+    }
+    .info{
+        display: block;
+        justify-content: space-between;
+        margin: 3rem 10%;
+    }
+    .info-item {
+        margin: 2rem 0;
+    }
+    
+    .end{
+        text-align: center;
+    }
+}

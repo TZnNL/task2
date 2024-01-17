@@ -1,0 +1,241 @@
+body {
+    padding: 0;
+    margin: 0;
+    font-family: 'Poppins';
+}
+.f62{
+    font-size: 62px;
+    font-weight: 500;
+}
+.f42{
+    font-size: 35px;
+}
+.f35{
+    font-size: 35px;
+}
+.f22{
+    font-size: 22px;
+}
+.f20{
+    font-size: 20px;
+}
+.f18{
+    font-size: 18px;
+}
+.f16{
+    font-size: 16px;
+}
+.f14{
+    font-size: 14px;
+}
+.f12{
+    font-size: 12px;
+}
+#container{
+    width: 70%;
+    margin: auto;
+
+}
+/* header  */
+header{
+    width: 70%;
+    display: flex;
+    padding: 0;
+    top: 0;
+    z-index: 99;
+    position: fixed;
+    background-color: white;
+}
+.logo{
+    width: 20%;
+    margin: auto;
+}
+.menu{
+    width: 50%;
+    margin: auto;
+}
+.menu ul{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding-inline-start: 0;
+}
+.menu ul li{
+    list-style: none;
+}
+.menu ul li:hover{
+    background-color: rgb(202, 236, 233);
+    width: 12%;
+    text-align: center;
+    border-radius: 12px;
+}
+.login{
+    width: 20%;
+    display: flex;
+    text-align: center;
+}
+.login *{
+    width: 50%;
+    margin: auto;
+}
+.login button{
+    background-color: white;
+    padding: 1rem 2rem;
+    border: 1px solid #1EBFC1;
+    color: #1EBFC1;
+    border-radius: 12px;
+}
+
+/* section */
+section{
+    width: 100%;
+    margin: 3rem 0;
+}
+.one{
+    width: 100%;
+    display: flex;
+    margin-top: 7rem;
+}
+.onel{
+    width: 50%;
+    margin: 3rem auto;
+}
+.getStart button{
+    padding: 10px 2rem;
+    margin-right: 2rem;
+    border-radius: 12px;
+    border-color: #1EBFC1;
+    background-color: #1EBFC1;
+    color: white;
+}
+
+.oner{
+    width: 50%;
+
+}
+
+.oner img{
+    width: 100%;
+
+}
+.three{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+.three-item{
+    width: 15%;
+
+}
+.four{
+    width: 100%;
+}
+
+.fourb{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.five{
+    margin: 3rem 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.five-item {
+    width: 30%;
+    line-height: 0;
+    position: relative;
+
+}
+
+.box-img{
+    width: 100%;
+    z-index: 0;
+}
+.box-img img{
+    width: 100%;
+}
+
+.description{
+    background-color: white;
+    border-radius: 12px;
+    width: 85%;
+    align-items: center;
+    margin: -3rem 5%;
+    position: absolute;
+    padding: 1rem 0 0 1rem;
+}
+.description *{
+    
+}
+.description-item{
+    width: 100%;
+    display: flex;
+}
+.description-item img{
+    width: 5%;
+    margin: auto;
+}
+.six{
+    margin-top: 8rem;
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+}
+.seven{
+    margin-top: 5rem;
+    width: 100%;
+    display: flex;
+}
+.sevenl{
+    width: 50%;
+    margin: auto;
+    line-height: 2rem;
+}
+.sevenLIcon img{
+    margin-right    : 3rem;
+}
+
+.sevenr{
+    width: 50%;
+}
+.sevenr img{
+    width: 100%;
+}
+.eight{
+    width: 100%;
+    padding: 2rem 0;
+    display: flex;
+    background-color: #DEF6F5;
+}
+
+.eightl{
+    width: 70%;
+    padding-left: 5%;
+}
+
+.eightr{
+    width: 30%;
+    margin: auto;
+}
+.eightr button{
+    margin: auto;
+    padding: 1rem 2rem;
+     background-color: #1EBFC1;
+     border-color: #1EBFC1;
+     color: white;
+     border-radius: 12px;
+}
+.info{
+    display: flex;
+    justify-content: space-between;
+    margin: 3rem 10%;
+}
+
+.end{
+    text-align: center;
+}
+.navMobile{
+    display: none;
+}
